@@ -1,4 +1,4 @@
-# sj TP Maincare project
+# TP Maincare project
 
 ## how to commit
 
