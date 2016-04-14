@@ -5,8 +5,8 @@
 1. clone project
 
 	```
-	git clone ssh://github.com/syjust/sjtp.test.git
-	cd sjtp.test
+	~$ git clone ssh://github.com/syjust/sjtp.mc.git
+	~$ cd sjtp.mc
 	```
 
 2. copy IdentityFile into your ~/.ssh directory & add ssh-config
