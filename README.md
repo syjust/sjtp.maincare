@@ -3,15 +3,18 @@
 ## how to commit
 
 1. clone project
+
 	 git clone ssh://github.com/syjust/sjtp.test.git
 	 cd sjtp.test
 
 2. copy IdentityFile into your ~/.ssh directory & add ssh-config
+
 	  [ ! -d ~/.ssh ] && mkdir ~/.ssh
 	  cp security/github/id_rsa* ~/.ssh
 	  cat security/github/ ssh-config >> ~/.ssh/config
 
 3. remove password of IdentityFile
+
     ~$ ssh-keygen -p -f ~/.ssh/id_rsa-sjtp.mc-2016
 	  Enter old passphrase:
 	  Key has comment '/Users/sylvainjust/.ssh/id_rsa-sjtp.mc-2016'
