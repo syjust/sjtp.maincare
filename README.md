@@ -4,17 +4,24 @@
 
 1. clone project
 
-	```
+	```bash
 	~$ git clone ssh://github.com/syjust/sjtp.mc.git
+	Cloning into 'sjtp.mc'...
+	remote: Counting objects: 54, done.
+	remote: Compressing objects: 100% (44/44), done.
+	remote: Total 54 (delta 10), reused 46 (delta 2), pack-reused 0
+	Receiving objects: 100% (54/54), 7.16 KiB | 0 bytes/s, done.
+	Resolving deltas: 100% (10/10), done.
+	Checking connectivity... done.
 	~$ cd sjtp.mc
 	```
 
 2. copy IdentityFile into your ~/.ssh directory & add ssh-config
 
-	```
-	[ ! -d ~/.ssh ] && mkdir ~/.ssh
-	cp security/github/id_rsa* ~/.ssh
-	cat security/github/ ssh-config >> ~/.ssh/config
+	```bash
+	~$ [ ! -d ~/.ssh ] && mkdir ~/.ssh
+	~$ cp security/github/id_rsa* ~/.ssh
+	~$ cat security/github/ ssh-config >> ~/.ssh/config
 	```
 
 3. remove password of IdentityFile
