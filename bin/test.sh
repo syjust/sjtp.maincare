@@ -1,2 +1,5 @@
 #!/bin/bash
-echo $0 called
+function call() {
+	echo $0 called
+}
+call
