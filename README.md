@@ -1,4 +1,4 @@
-# TP Maincare project
+# TP MC project
 
 ## how to commit
 
