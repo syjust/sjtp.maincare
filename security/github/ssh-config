@@ -1,5 +1,0 @@
-Host github.com
-	Hostname github.com
-	user git
-	port 22
-	IdentityFile ~/.ssh/id_rsa-sjtp.mc-2016
