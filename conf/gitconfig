@@ -1,0 +1,38 @@
+[user]
+	name        = John Doe / localhost
+	email       = john.doe@example.com
+[core]
+	editor      = vim 
+[merge]
+	tool        = vimdiff
+[alias]
+	st          = status -s
+	co          = checkout
+  ci          = commit
+	br          = branch
+  df          = diff
+  dft         = difftool
+  diffshort   = diff --name-only
+	ds          = diff --name-only
+  log         = log -p
+  lg          = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev=8 --abbrev-commit --date=relative
+  log-sha-only= log --graph --pretty=format:'%H'
+  lgl         = log --graph --pretty=format:'%H'
+  logstat     = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --stat
+  lgs         = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --stat
+	merge       = merge --no-commit --no-ff
+  mgt         = mergetool
+	sts         = stash
+	pop         = stash pop
+	pushup      = push --set-upstream origin master
+  clon        = clone -u /usr/local/bin/git-upload-pack
+  pul         = pull --upload-pack /usr/local/bin/git-upload-pack
+  fet         = fetch --upload-pack /usr/local/bin/git-upload-pack
+  pus         = push --receive-pack /usr/local/bin/git-receive-pack
+[color]
+	branch      = auto
+	diff        = auto
+	status      = auto
+	interactive = auto
+[push]
+	default     = matching
